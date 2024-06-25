@@ -1,0 +1,4 @@
+rootProject.name = 'contract-service'
+
+include(":shared-library")
+project(":shared-library").projectDir = file("../../shared-library")
